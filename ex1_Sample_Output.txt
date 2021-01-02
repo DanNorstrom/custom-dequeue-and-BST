@@ -1,0 +1,51 @@
+1. Creating new Empty MyDequeue
+
+2. Testing illigal left(), right(), removeLeft() and removeRight() on Empty MyDequeue:
+MyDequeueException: Nullpointer, empty MyDequeue
+	at MyDequeue.left(MyDequeue.java:41)
+	at TestMyDequeue.main(TestMyDequeue.java:9)
+MyDequeueException: Nullpointer, empty MyDequeue
+	at MyDequeue.right(MyDequeue.java:50)
+	at TestMyDequeue.main(TestMyDequeue.java:13)
+MyDequeueException: Nullpointer, empty MyDequeue
+	at MyDequeue.removeLeft(MyDequeue.java:76)
+	at TestMyDequeue.main(TestMyDequeue.java:17)
+MyDequeueException: Nullpointer, empty MyDequeue
+	at MyDequeue.removeRight(MyDequeue.java:85)
+	at TestMyDequeue.main(TestMyDequeue.java:21)
+
+3. Adding Left: Lovely
+Queue contents: <Lovely>
+
+4. Adding right: Weather
+Queue contents: <Lovely, Weather>
+
+5. Adding right: We've
+Queue contents: <Lovely, Weather, We've>
+
+6. Adding right: Been
+Queue contents: <Lovely, Weather, We've, Been>
+
+7. Adding right: Blessed!
+Queue contents: <Lovely, Weather, We've, Been, Blessed!>
+
+8. Removing left.
+Queue contents: <Weather, We've, Been, Blessed!>
+
+9. Removing right.
+Queue contents: <Weather, We've, Been>
+
+10. Returning left.
+Weather
+
+11. Returning right.
+Been
+
+12. Checking empty array.
+false
+
+13. Emptying and Checking empty array.
+Queue contents: <Weather, We've>
+Queue contents: <Weather>
+Queue contents: < >
+true
